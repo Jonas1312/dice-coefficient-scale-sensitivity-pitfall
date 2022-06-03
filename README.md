@@ -32,3 +32,10 @@ We can see that $f(a,r)\geq 0$.
 
 Also, $\frac{\partial f}{\partial r}\gt 0$ and $\frac{\partial f}{\partial a}\geq 0$, show that small variations of $a$ or $r$ increase $f(a,r)$, and thus decrease the Dice coefficient, as expected.
 
+However, the interesting thing is that $f(a,r)$ also depends on the size of the ground truth $|Y|$.
+
+$f(a,r)$ decreases when the size $|Y|$ increases, which means that for two ground truth segmentations where $|Y_1|<|Y_2|$, and with the same number of pixel-wise errors $r+a$, we will have $Dice(Y_1, \hat{Y_1})<Dice(Y_2, \hat{Y_2})$
+
+In other terms, it means that Dice overpenalises small objects, and is too tolerant with big objects.
+
+Using a Dice loss or a Dice metric on a dataset with many different sizes of objects might then lead to some surprises in terms 
