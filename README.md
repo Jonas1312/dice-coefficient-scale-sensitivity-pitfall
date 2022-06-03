@@ -34,7 +34,7 @@ Also, $\frac{\partial f}{\partial r}\gt 0$ and $\frac{\partial f}{\partial a}\ge
 
 However, the interesting thing is that $f(r,a)$ also depends on the size of the ground truth $|Y|$.
 
-$f(r,a)$ decreases when the size $|Y|$ increases, which means that for two ground truth segmentations where $|Y_1|<|Y_2|$, and with the same number of pixel-wise errors $r+a$, we will have $Dice(Y_1, \hat{Y_1})<Dice(Y_2, \hat{Y_2})$
+$f(r,a)$ decreases when the size $|Y|$ increases, which means that for two ground truth segmentations where $|Y_1|<|Y_2|$, and with the same number of pixel-wise errors $r+a$, we will have $Dice(Y_1, \hat{Y_1}) \lt Dice(Y_2, \hat{Y_2})$.
 
 In other terms, it means that Dice overpenalises small objects, and is too tolerant with big objects.
 
