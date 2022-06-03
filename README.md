@@ -22,5 +22,13 @@ Dice & = 2\frac{|Y\cap \hat{Y}|}{|Y| + |\hat{Y}|} \\
  & =\frac{2|Y| - 2r}{2|Y|-r+a}\\
  &=\frac{2|Y|-r+a -r -a}{2|Y|-r+a}\\
  &=1-\frac{r+a }{2|Y|-r+a}\\
+ &=1-f(r,a)\\
 \end{split}
 \end{equation}$$
+
+The penalty factor $f(r,a)$ is null when $a=r=0$. We thus have $Dice=1$ as expected.
+
+We can see that $f(a,r)\geq 0$.
+
+Also, $\frac{\partial f}{\partial r}\gt 0$ and $\frac{\partial f}{\partial a}\geq 0$, show that small variations of $a$ or $r$ increase $f(a,r)$, and thus decrease the Dice coefficient, as expected.
+
