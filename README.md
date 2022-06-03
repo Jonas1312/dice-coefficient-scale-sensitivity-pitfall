@@ -1,5 +1,7 @@
 # Dice Coefficient and Its Sensitivity to Scale
 
+In computer vision, we often use the Dice score to quantify the quality of a generated segmentation to its ground truth: 
+
 $$Dice = 2\frac{|Y\cap \hat{Y}|}{|Y| + |\hat{Y}|}$$
 
 Where $|Y|$ is the ground truth and $|\hat{Y}|$ the estimate or prediction.
