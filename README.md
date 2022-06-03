@@ -6,7 +6,7 @@ $$Dice = 2\frac{|Y\cap \hat{Y}|}{|Y| + |\hat{Y}|}$$
 
 Where $|Y|$ is the ground truth and $|\hat{Y}|$ the estimate or prediction.
 
-Let's name $r$ the number of pixels removed by the estimate, that is the number of false negatives FN:
+Let's name $r$ as the number of pixels removed by the estimate, that is the number of false negatives FN:
 
 $$|Y\cap \hat{Y}| = |Y| - r, \quad r\in[0, |Y|]$$
 
