@@ -40,6 +40,6 @@ $f(r,a)$ decreases when the size $|Y|$ increases, which means that for two groun
 
 In other terms, it means that Dice overpenalises small objects, and is too tolerant with big objects.
 
-Using a Dice loss or a Dice metric on a dataset with many different sizes of objects might lead to some surprises...
+Using a Dice loss or a Dice metric on a dataset with many different sizes of objects will cause your model to be biased.
 
 A solution might be to use the [Generalized Dice Loss](https://arxiv.org/abs/1707.03237).
