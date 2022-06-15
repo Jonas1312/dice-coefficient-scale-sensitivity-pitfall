@@ -34,7 +34,7 @@ The penalty factor $f(r,a)$ is null when $a=r=0$. We thus have $Dice=1$ as expec
 
 We can see that $f(r,a)\geq 0$.
 
-Also $\\, \frac{\partial f}{\partial r}\gt 0 $ and $\frac{\partial f}{\partial a}\geq 0$ show that small variations of $a$ or $r$ increase $f(r,a)$, and thus decrease the Dice coefficient, as expected.
+Also $\\, \frac{\partial f}{\partial r}\gt 0 $ and $\frac{\partial f}{\partial a}\geq 0$ show that small positive variations of $a$ or $r$ increase $f(r,a)$, and thus decrease the Dice coefficient, as expected.
 
 However, the interesting thing is that $\\, f(r,a) $ also depends on the size of the ground truth $\\, |Y| $.
 
