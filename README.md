@@ -5,8 +5,8 @@ In computer vision, we often use the Dice score to quantify the quality of a gen
 $$Dice = 2\frac{|Y\cap \hat{Y}|}{|Y| + |\hat{Y}|}$$
 
 Where:
-- $|Y|$ is the ground truth
-- $|\hat{Y}|$ the estimate or prediction.
+- $Y$ is the ground truth
+- $\hat{Y}$ the estimate or prediction.
 
 Let's name $r$ as the number of pixels removed by the estimate, that is the number of false negatives FN:
 
